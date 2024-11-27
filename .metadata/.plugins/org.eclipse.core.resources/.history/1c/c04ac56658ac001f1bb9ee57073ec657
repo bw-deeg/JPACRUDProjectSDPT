@@ -1,0 +1,26 @@
+package com.skilldistillery.jpacandy.data;
+
+import com.skilldistillery.jpacandy.entities.Candy;
+
+public class CandyDAOImpl implements CandyDAO {
+	private static final EntityManagerFactory emf =
+			Persistence.createEntityManagerFactory("CandyStore");
+	@Override
+	public Candy addCandy(Candy candy) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean deleteCandy(int id) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Candy updateCandy(Candy candy) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

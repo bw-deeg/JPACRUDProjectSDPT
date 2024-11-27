@@ -4,8 +4,6 @@ target
 build
 bin
 default
-.metadata
-.settings
 .gradle
 *.war 
 *.bak

@@ -1,0 +1,5 @@
+package com.skilldistillery.jpacandy.data;
+
+public interface CandyDAO {
+
+}
