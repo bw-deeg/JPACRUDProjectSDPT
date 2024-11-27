@@ -1,4 +1,4 @@
-package com.skilldistillery.jpacandy;
+package com.skilldistillery.bootcandy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
