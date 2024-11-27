@@ -6,12 +6,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Candy Land</title>
 </head>
 <body>
 
 <div>
-  <h5>${film.title} (${film.releaseYear})</h5>
+  <h5>${candy.name} (${candy.description})</h5>
 </div>
 
 

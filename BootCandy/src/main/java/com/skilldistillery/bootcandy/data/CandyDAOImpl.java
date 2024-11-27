@@ -17,6 +17,12 @@ public class CandyDAOImpl implements CandyDAO {
 	private EntityManager em;
 	
 	@Override
+	public Candy findById(int id) {
+		Candy candy = em.find(Candy.class, id);
+		return candy;
+	}
+	
+	@Override
 	public Candy addCandy(Candy candy) {
 		em.getTransaction().begin();
 		em.persist(candy);
